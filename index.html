@@ -4975,34 +4975,6 @@ E <strong>SERIES.</strong></span><br>
 		</div>
 		
 	</footer>
-		
-
-
-
-
-	<div id="ico_whats" style="position: fixed; bottom:20px; right: 20px; z-index: 999999; cursor: pointer;">
-    <img src="views/img/whatsapp.fw.png" width="84px" height="84px">
-</div>
-
-<div id="whats_janela">
-
-    <div class="whats_janela_top">
-        <i class="fa fa-comment" aria-hidden="true"></i> Olá! Preencha os campos abaixo para iniciar a conversa no WhatsApp.
-    </div>
-
-    <div style="padding: 20px;">
-        <form action="https://api.whatsapp.com/send?phone=5521972732301&text=" method="get" target="_blank">
-
-            <div><input type="text" class="form-control" name="nome" placeholder="Nome"></div>
-
-            <div style="margin-top: 15px;"><textarea class="form-control" name="msg" placeholder="Digite sua mensagem" style="height:60px;"></textarea></div>
-
-            <div style="margin-top: 15px;">
-                <button class="whats_janela_bt">INICIAR ATENDIMENTO</button>
-            </div>
-        </form>
-    </div>
-</div>
 
 		     <!-- Inicio do corpo da página -->
 
@@ -5042,7 +5014,12 @@ E <strong>SERIES.</strong></span><br>
   <script type="text/javascript" src="views/api/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
 
   
-        
+      <script>
+// JavaScript para personalizar o comportamento do botão (opcional)
+document.querySelector('.whats_janela_bt').addEventListener('click', function() {
+  // Adicione aqui qualquer código JavaScript personalizado, como tracking de eventos
+});
+      </script>
       <script>        
         $("#slider_topo_79").responsiveSlides({
           auto: true,
